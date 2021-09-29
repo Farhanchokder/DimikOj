@@ -1,4 +1,5 @@
-'''
+''' 
+Problem link : https://dimikoj.com/problems/6/52-problem-book-find-the-sum-by-dimik-computing
 [৫২ সমস্যা বই] যোগফল নির্ণয়
 প্রবলেম সেটার: দ্বিমিক কম্পিউটিং
 পাঁচ (5) অঙ্কের একটি সংখ্যার প্রথম এবং শেষ অঙ্কের যোগফল নির্ণয় করার প্রোগ্রাম লিখতে হবে।
@@ -46,6 +47,6 @@ while(t != 0):
 t = int(input())
 while(t != 0):
     a = input()
-    sum = int(a[len(a)-1])+int(a[0])
+    sum = int(a[len(a)-1])+int(a[0]) # last digit = a[len(a)-1],  first digit = a[0]
     print("Sum =",sum)  
 t -= 1
